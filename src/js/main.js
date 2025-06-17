@@ -1,11 +1,4 @@
-window.onload = iniciar;
 
-
-function iniciar(){
-btnCalcular = document.getElementById("btnCalcular")
-btnCalcular.addEventListener("click", clickBtnCalcular)
-
-}
 function clickBtnCalcular(){
     txtPeso = document.getElementById("txtPeso")
     peso = txtPeso.value;
